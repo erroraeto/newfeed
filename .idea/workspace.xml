@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dbf65b6-ee30-4ef3-9cbf-7e8a32135180" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion.html" beforeDir="false" afterPath="$PROJECT_DIR$/fashion.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/politics.html" beforeDir="false" afterPath="$PROJECT_DIR$/politics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport.html" beforeDir="false" afterPath="$PROJECT_DIR$/sport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech.html" beforeDir="false" afterPath="$PROJECT_DIR$/tech.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,11 +80,14 @@
       <updated>1761661166360</updated>
       <workItem from="1761661167058" duration="12449000" />
       <workItem from="1761690513159" duration="88000" />
-      <workItem from="1761690603399" duration="10155000" />
+      <workItem from="1761690603399" duration="10483000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="robots.txt" />
   </component>
 </project>
