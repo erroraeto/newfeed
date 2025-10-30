@@ -202,32 +202,43 @@ const data = {
         }]
 };
 
-const mainNews = data.items.slice(0, 3);
-const smallNews = data.items.slice(3, 12);
 
-const mainNewsTemplate = document.getElementById('main-news-item');
-const smallNewsTemplate = document.getElementById('small-news-item');
 
-const mainNewsContainer = document.querySelector('.main');
-const smallNewsContainer = document.querySelector('.nav');
+(async function() {
+    let data;
+    await fetch('http://frontend.karpovcourses.net/api/v1/ru/news/' + (1 ? 1 : '') )
+        .then(response => response.json())
+        .then((responseJson) => {
+            data = responseJson;
+        });
 
-const escapeString = (string) => {
-    const symbols = {
-        "<": "&lt",
-        ">": "&gt",
-        "&": "&amp",
+
+    const mainNews = data.items.slice(0, 3);
+    const smallNews = data.items.slice(3, 12);
+
+    const mainNewsTemplate = document.getElementById('main-news-item');
+    const smallNewsTemplate = document.getElementById('small-news-item');
+
+    const mainNewsContainer = document.querySelector('.main');
+    const smallNewsContainer = document.querySelector('.nav');
+
+    const escapeString = (string) => {
+        const symbols = {
+            "<": "&lt",
+            ">": "&gt",
+            "&": "&amp",
+        };
+        return string.replace(/[&<>]/g, (tag) => {
+            return symbols[tag] || tag;
+        });
     };
-    return string.replace(/[&<>]/g, (tag) => {
-        return symbols[tag] || tag;
-    });
-};
 
-mainNews.forEach(item => {
-    const category = data.categories.find(categoryItem => categoryItem.id === item.category_id);
-    const source = data.sources.find(sourceItem => sourceItem.id === item.source_id);
+    mainNews.forEach(item => {
+        const category = data.categories.find(categoryItem => categoryItem.id === item.category_id);
+        const source = data.sources.find(sourceItem => sourceItem.id === item.source_id);
 
-    const template = document.createElement('template');
-    template.innerHTML = `
+        const template = document.createElement('template');
+        template.innerHTML = `
         <div class="main__item">
             <img class="main__item-img" src="${escapeString(item.image)}" />
             <div class="main__item-content">
@@ -238,15 +249,15 @@ mainNews.forEach(item => {
             </div>
         </div>
     `;
-    mainNewsContainer.appendChild(template.content);
-});
+        mainNewsContainer.appendChild(template.content);
+    });
 
-smallNews.forEach(item => {
-    const source = data.sources.find(sourceItem => sourceItem.id === item.source_id);
-    const date = new Date(item.date).toLocaleDateString('ru-RU',{month: 'long', day: 'numeric'});
+    smallNews.forEach(item => {
+        const source = data.sources.find(sourceItem => sourceItem.id === item.source_id);
+        const date = new Date(item.date).toLocaleDateString('ru-RU',{month: 'long', day: 'numeric'});
 
-    const template = document.createElement('template');
-    template.innerHTML = `
+        const template = document.createElement('template');
+        template.innerHTML = `
         <div class="nav__item">
             <h3 class="nav__item-title">${escapeString(item.title)}</h3>
             <div class="nav__item-info">
@@ -255,5 +266,7 @@ smallNews.forEach(item => {
             </div>
         </div>
     `;
-    smallNewsContainer.appendChild(template.content);
-});
+        smallNewsContainer.appendChild(template.content);
+    });
+
+})();
