@@ -206,7 +206,7 @@ const data = {
 
 (async function() {
     let data;
-    await fetch('http://frontend.karpovcourses.net/api/v1/ru/news/' + (1 ? 1 : '') )
+    await fetch('https://frontend.karpovcourses.net/api/v1/ru/news/' + (1 ? 1 : '') )
         .then(response => response.json())
         .then((responseJson) => {
             data = responseJson;
