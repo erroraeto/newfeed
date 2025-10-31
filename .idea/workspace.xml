@@ -51,7 +51,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/error/WebstormProjects/newfeed/src/main.js",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -79,7 +79,7 @@
       <workItem from="1761690603399" duration="25180000" />
       <workItem from="1761911010162" duration="8140000" />
       <workItem from="1761920422292" duration="3717000" />
-      <workItem from="1761924188440" duration="5676000" />
+      <workItem from="1761924188440" duration="6019000" />
     </task>
     <servers />
   </component>
