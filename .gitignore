@@ -1,2 +1,7 @@
 node_modules/
-.idea/*
+
+.idea/.name
+.idea/modules.xml
+.idea/vcs.xml
+.idea/watcherTasks.xml
+.idea/workspace.xml
