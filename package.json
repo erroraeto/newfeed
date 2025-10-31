@@ -1,0 +1,23 @@
+{
+  "name": "newfeed",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erroraeto/newfeed.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erroraeto/newfeed/issues"
+  },
+  "homepage": "https://github.com/erroraeto/newfeed#readme",
+  "description": "",
+  "dependencies": {
+    "jquery": "^3.7.1"
+  }
+}
