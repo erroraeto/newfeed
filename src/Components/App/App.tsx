@@ -1,22 +1,34 @@
-import { categoryId } from '../../utils.js';
-import { Navigation } from '../Navigation/Navigation.js';
-import { MainArticle, SmallArticle } from '../Articles/Articles.js';
+import { categoryId } from '../../utils';
+import { Navigation } from '../Navigation/Navigation';
+import { MainArticle, SmallArticle } from '../Articles/Articles';
 import React from 'react';
 import './App.css';
+import { NewsAPI } from '../../../types'
 
 export const App = () => {
+    const [articleId, setArticleId] = React.useState<number | null>(null);
     const [category, setCategory] = React.useState("index");
-    const [articles, setArticles] = React.useState({ items: [], categories: [], sources: [] });
+    const [articles, setArticles] = React.useState<NewsAPI>({ items: [], categories: [], sources: [] });
 
-    const onNavClick = (e) => {
+    const onNavClick = (e: React.MouseEvent<HTMLElement>) => {
         e.preventDefault();
-        setCategory(e.currentTarget.dataset.href);
+        setArticleId(null);
+        const category = e.currentTarget.dataset.href;
+
+        if (category) {
+            setCategory(category);
+        }
     };
 
+    const onArticleClick = (id: number) => {
+        setArticleId(id);
+    }
+
     React.useEffect(() => {
+        // @ts-ignore
         fetch("http://frontend.karpovcourses.net/api/v2/ru/news/" + categoryId[category] || "")
             .then(response => response.json())
-            .then(response => {
+            .then((response: NewsAPI) => {
                 setArticles(response);
             })
     }, [category]);
@@ -26,26 +38,29 @@ export const App = () => {
             <Navigation onNavClick={onNavClick} currentCategory={category} className="header__navigation"/>
             <main className="main">
                 {articles.items.slice(0, 3).map((item) => {
+                    const category = articles.categories.find(({id}) => item.category_id === id);
+                    const source = articles.sources.find(({id}) => item.source_id === id);
                     return (
                         <MainArticle
                             key={item.title}
                             image={item.image}
-                            category={articles.categories.find(({id}) => item.category_id === id).name}
+                            category={category?.name || ''}
                             title={item.title}
                             description={item.description}
-                            source={articles.sources.find(({id}) => item.source_id === id).name}
+                            source={source?.name || ''}
                         />
                     )
                 })}
             </main>
             <nav className="nav">
                 {articles.items.slice(3, 12).map((item) => {
+                    const source = articles.sources.find(({id}) => item.source_id === id);
                     return (
                         <SmallArticle
                             key={item.title}
                             title={item.title}
                             date={item.date}
-                            source={articles.sources.find(({id}) => item.source_id === id).name}
+                            source={source?.name || ''}
                         />
                     )
                 })}

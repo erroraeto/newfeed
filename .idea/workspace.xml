@@ -5,6 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dbf65b6-ee30-4ef3-9cbf-7e8a32135180" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Articles/Articles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Articles/Articles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navigation/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navigation/Navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +66,7 @@
     "onboarding.tips.debug.path": "C:/Users/error/WebstormProjects/newfeed/src/main.js",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "settings.editor.splitter.proportion": "0.28134558",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2025.2.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -88,7 +99,7 @@
       <workItem from="1761920422292" duration="3717000" />
       <workItem from="1761924188440" duration="6019000" />
       <workItem from="1761943744203" duration="170000" />
-      <workItem from="1761943930545" duration="13606000" />
+      <workItem from="1761943930545" duration="34513000" />
     </task>
     <servers />
   </component>
