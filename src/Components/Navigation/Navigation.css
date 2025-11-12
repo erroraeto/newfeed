@@ -32,7 +32,7 @@
     display: flex;
     align-items: center;
     column-gap: 6.2rem;
-    width: max-content;
+    width: 100%;
 }
 
 

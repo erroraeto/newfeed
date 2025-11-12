@@ -1,9 +1,11 @@
 import { categoryId } from '../../utils';
+import { getDatabase, ref, get } from "firebase/database";
 import { Navigation } from '../Navigation/Navigation';
 import { MainArticle, SmallArticle } from '../Articles/Articles';
 import React from 'react';
 import './App.css';
 import { NewsAPI } from '../../../types'
+import app from "../../firebase-config";
 
 export const App = () => {
     const [articleId, setArticleId] = React.useState<number | null>(null);
@@ -24,13 +26,20 @@ export const App = () => {
         setArticleId(id);
     }
 
-    React.useEffect(() => {
+    React.useEffect( () => {
+        const db = getDatabase(app);
         // @ts-ignore
-        fetch("http://frontend.karpovcourses.net/api/v2/ru/news/" + categoryId[category] || "")
-            .then(response => response.json())
-            .then((response: NewsAPI) => {
-                setArticles(response);
-            })
+        const dbRef = ref(db, `${categoryId[category]}`);
+        get(dbRef)
+            .then((snapshot) => {
+                if (snapshot.exists()) {
+                    setArticles(snapshot.val());
+                } else {
+                    console.log("No data available");
+                }
+            }).catch((error) => {
+                console.error(error);
+            });
     }, [category]);
 
     return (

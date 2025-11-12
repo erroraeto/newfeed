@@ -6,7 +6,42 @@
   <component name="ChangeListManager">
     <list default="true" id="9dbf65b6-ee30-4ef3-9cbf-7e8a32135180" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/script.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/script.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/1ebf3d733597441b41f6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.02a4d95a616be9ef6b26.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.02a4d95a616be9ef6b26.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.11f9e09f75922a41e1ad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.11f9e09f75922a41e1ad.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.1288195c43087bd78f98.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.1288195c43087bd78f98.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.177cbb40683544bb2df3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.177cbb40683544bb2df3.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.443bcdf216d92c547e07.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.443bcdf216d92c547e07.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.4ed5dd201be66ffc54b2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.4ed5dd201be66ffc54b2.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.5e7a0b9b5a3a61f0271b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.5e7a0b9b5a3a61f0271b.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.75f8e7f7803f270e29c8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.795fbcc11c5e0ed8acd3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.795fbcc11c5e0ed8acd3.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.a4db59ed5bb1925ecf6f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.a4db59ed5bb1925ecf6f.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.ca5b97e14544c1ada0ea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.ca5b97e14544c1ada0ea.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.ccc0b5611978dbf59f01.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.ccc0b5611978dbf59f01.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.eca5bf8c0985a29404e2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.eca5bf8c0985a29404e2.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.eec82351a78ba7e17fda.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.f8efb5554b04072222df.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.f8efb5554b04072222df.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.fd2d1dcb7a4f4c05bd77.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.fd2d1dcb7a4f4c05bd77.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/App/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,30 +72,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/error/WebstormProjects/newfeed",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/error/WebstormProjects/newfeed/src/main.js",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "settings.editor.splitter.proportion": "0.28134558",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2025.2.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/error/WebstormProjects/newfeed&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/error/WebstormProjects/newfeed/src/main.js&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.28134558&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2025.2.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\error\WebstormProjects\newfeed" />
@@ -90,7 +125,9 @@
       <workItem from="1761920422292" duration="3717000" />
       <workItem from="1761924188440" duration="6019000" />
       <workItem from="1761943744203" duration="170000" />
-      <workItem from="1761943930545" duration="35723000" />
+      <workItem from="1761943930545" duration="36674000" />
+      <workItem from="1762619855871" duration="957000" />
+      <workItem from="1762949150947" duration="8153000" />
     </task>
     <servers />
   </component>

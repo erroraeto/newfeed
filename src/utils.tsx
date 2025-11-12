@@ -1,5 +1,5 @@
 export const categoryId = {
-    index: 0,
+    index: 4,
     sport: 2,
     technologies: 1,
     karpov: 6,
