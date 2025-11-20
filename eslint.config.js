@@ -6,7 +6,7 @@ const tsParser = require('@typescript-eslint/parser');
 
 module.exports = defineConfig([
   {
-    ignores: ['dist/', 'node_modules/'],
+    ignores: ['dist/', 'node_modules/', 'README.md'],
   },
   {
     languageOptions: {
